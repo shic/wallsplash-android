@@ -63,6 +63,7 @@ import java.util.Collections;
  * to handle interaction events.
  * Use the {@link DirectoryChooserFragment#newInstance} factory method to
  * create an instance of this fragment.
+ * This fragment is called only on long click
  */
 public class DirectoryChooserFragment extends DialogFragment {
     public static final String KEY_CURRENT_DIRECTORY = "CURRENT_DIRECTORY";
